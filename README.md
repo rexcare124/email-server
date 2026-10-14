@@ -42,6 +42,8 @@ src/
       email.routes.ts      /api/v1/email/*
   middlewares/             404 and error handlers
   utils/                   ApiError, response helpers, HTTP client, validators
+public/
+  robots.txt               Static output Vercel requires (also blocks crawlers)
 tsconfig.json              Compiles src/ to dist/
 vercel.json                Runs the build and rewrites every request to the api/ function
 ```
